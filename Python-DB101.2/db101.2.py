@@ -4,7 +4,7 @@ con = mdb.connect('<insert>', '<insert>', '<insert>','<insert>')
 
 with con:
 
-#column headers
+#dictionary cursor
 	cur = con.cursor(mdb.cursors.DictCursor)
 	cur.execute('SELECT * FROM Writers')
 
