@@ -1,6 +1,6 @@
 import MySQLdb as mdb
 
-con = mdb.connect('localhost', 'root', 'root','testdb')
+con = mdb.connect('<insert>', '<insert>', '<insert>','<insert>')
 
 with con:
 
